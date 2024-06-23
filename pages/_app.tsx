@@ -7,14 +7,14 @@ import './style.css';
 function MyApp({ Component, pageProps }: AppProps) {
   return (
     <>
-<Script async src="https://www.googletagmanager.com/gtag/js?id=G-ST7R3WQ353"/>
+{/* <Script async src="https://www.googletagmanager.com/gtag/js?id=G-ST7R3WQ353"/>
 <Script>{`
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
   gtag('config', 'G-ST7R3WQ353');
 `}
-</Script>
+</Script> */}
 
       <Component {...pageProps} />
      
