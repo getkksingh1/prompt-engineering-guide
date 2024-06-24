@@ -1,3 +1,4 @@
+"use client"
 // components/ContentFileNames.tsx
 import React, { useEffect, useState } from 'react';
 import { Cards, Card } from 'nextra-theme-docs';
@@ -7,6 +8,7 @@ const ContentFileNames = ({ section = 'research', lang = 'en' }) => {
   const [fileNames, setFileNames] = useState([]);
 
   useEffect(() => {
+    console.log(section)
     fetch(`/api/contentFiles?section=${section}&lang=${lang}`)
       .then(response => response.json())
       .then(data => setFileNames(data.fileNames));
