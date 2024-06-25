@@ -95,3 +95,5 @@ To run the guide locally, for example to check the correct implementation of a n
 ## License
 
 MIT License
+
+This is fork of dair-ai/Prompt-Engineering-Guide, all language support has not removed to make it light weight.
